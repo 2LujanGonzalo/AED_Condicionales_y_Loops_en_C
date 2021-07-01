@@ -5,13 +5,11 @@
 int main(void){
 int contador = 0;
 int n=1;
-int power = 1;
- int i = 0;
+
+
  while (contador < 7 ) {
-   printf("2^%d\t%d\n", i, power);
-   power *= 2;
+printf("ln:%.2f\t n:%d\t n*ln(n):%.2f\t n²:%d\t n³:%.2f\t 2^n:%.2f\t\n",log(n), n, n*log(n), n*n, pow(n,3), pow(2,n) );
    n *= 2;
-   i++;
    contador ++;
  }
 
