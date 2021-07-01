@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-#include <string.h>
+
 int main(int argc, char  *argv[]) {
 
-int n=atof(argv[1]);
+int n=atoi(argv[1]);
 
 if (n<1) {
 
@@ -15,23 +15,27 @@ if (n<1) {
 }
 
 srand(time(NULL));
+
 int random=0;
+
 int Contador=0;
+
+int i=0;
+
+int suma = 0;
+
 while (Contador<n){
   random=rand()%101;
 printf("%d\n",random );
 
+
+suma += random;
+
 Contador ++;
 }
-int contador2={random};
+double promedio= suma / (double) n;
 
-int contador3=0;
-int i=0;
-while (contador3<n) {
-  printf("%d\n ",contador2[i]);
-  i +1;
-contador3 ++;
-}
+printf("Promedio:%.2f\n", promedio);
 
   return 0;
 
