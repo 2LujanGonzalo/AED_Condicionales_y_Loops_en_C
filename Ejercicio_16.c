@@ -1,3 +1,5 @@
+//Cuadrado del numero hasta el ingresado
+
 #include <stdio.h>
 #include <stdlib.h>
 

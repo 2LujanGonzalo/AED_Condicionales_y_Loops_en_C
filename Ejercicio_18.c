@@ -1,3 +1,5 @@
+//Donde esta el vector
+
 #include <stdio.h>
 #include <stdlib.h>
 

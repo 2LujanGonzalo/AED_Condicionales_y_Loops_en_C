@@ -1,3 +1,5 @@
+//si los numeros divididos entre si dan 0
+
 #include <stdlib.h>
 #include <stdio.h>
 

@@ -1,3 +1,5 @@
+//como el anterior pero mejorado
+
 #include <stdlib.h>
 #include <stdio.h>
 

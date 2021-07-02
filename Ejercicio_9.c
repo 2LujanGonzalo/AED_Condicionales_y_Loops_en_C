@@ -1,3 +1,5 @@
+//El numero mayor
+
 #include <stdlib.h>
 #include <stdio.h>
 

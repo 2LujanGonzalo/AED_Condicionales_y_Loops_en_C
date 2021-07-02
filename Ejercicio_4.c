@@ -1,3 +1,5 @@
+//hola mundo 10 vecez mejorado
+
 #include <stdlib.h>
 #include <stdio.h>
 

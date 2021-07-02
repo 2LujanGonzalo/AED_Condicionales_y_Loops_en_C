@@ -1,3 +1,5 @@
+//Ajedrez
+
 #include <stdio.h>
 #include <stdlib.h>
 

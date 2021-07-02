@@ -1,3 +1,5 @@
+//muestra los numeros divisibles por 3
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>

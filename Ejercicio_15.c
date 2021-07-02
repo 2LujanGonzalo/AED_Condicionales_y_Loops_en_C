@@ -1,3 +1,5 @@
+//Algoritmos de euclides
+
 #include <stdlib.h>
 #include <stdio.h>
 

@@ -1,3 +1,5 @@
+//si los numeros son divisibles por n igual a 3
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>

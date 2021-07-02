@@ -1,3 +1,5 @@
+//Da vuelta el numero ingresado
+
 #include <stdlib.h>
 #include <stdio.h>
 
