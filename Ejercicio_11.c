@@ -8,9 +8,8 @@ int  main(int argc, char  *argv[]) {
 
 
   double Resultado=atan2(y,x);
-
+Resultado= Resultado * 180 / 3.14159265359;
   printf("El arcotangente de X:%f e Y:%f es: %.2f\n",x , y , Resultado );
-//Por alguna razon lo imprime en radiales y no en grados.
 
 
   return 0;
