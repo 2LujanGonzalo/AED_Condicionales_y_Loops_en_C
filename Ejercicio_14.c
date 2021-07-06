@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-//Factoriales
-
 int main(int argc, char  *argv[]) {
   int n=atoi(argv[1]);
 int Contador=0;
