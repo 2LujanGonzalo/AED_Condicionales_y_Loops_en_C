@@ -5,11 +5,15 @@
 
 int main(void){
 
-int i=1000;
+int i=1001;//Si pongo i=1000 cuando lo ejecute saldrá :1000 1001 1002 1003 1004 1005
+                                                    // 1006 1007 1008 1009 1010 despues sigue bien.
 
 
 while (i<2000) {
-printf("%d %d %d %d %d \n",i++,i++,i++,i++,i++);
+printf("%d ",i++);
+if (i%10==0||i%10==5) {
+  printf("%d\n",i++ );
+}
 }
 
 
