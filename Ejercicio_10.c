@@ -1,41 +1,24 @@
 //como el anterior pero mejorado
-
 #include <stdlib.h>
 #include <stdio.h>
 
 int main(int argc, char  *argv[]) {
-  int a=atoi(argv[1]);
-  int b=atoi(argv[2]);
-  int c=atoi(argv[3]);
-
-
-if (a==b && a==c && b==c) {
-  printf("Numeros iguales, cambialos\n" );
+  int max  =-999999;
+  int suma =0;
+  int min  =9999999;
+  for (int i = 1; i < argc; i++) {
+    suma+=atoi(argv[i]);
+    if (atoi(argv[i])>max) {
+      max= atoi(argv[i]);
+  // min = max;
+    }
+    if (atoi(argv[i])<min) {
+      min = atoi(argv[i]);
+    }
+  }
+  double promedio= suma / (argc - 1);
+  printf("Promedio:%.2f\n",promedio);
+  printf("El maximo es :%d\n",max );
+  printf("El minino es :%d\n", min);
   return 0;
-}
-
-
-if (a>b && a>c ) {
-printf("El mayor es: %d\n",a );
-
-} else if (b>a && b>c) {
-printf("El mayor es: %d\n",b );
-} else {
-printf("El mayor es: %d\n",c );
-}
-
-if (a<b && a<c ) {
-printf("El menor es: %d\n",a );
-
-} else if (b<a && b<c) {
-printf("El menor es: %d\n",b );
-} else {
-printf("El menor es: %d\n",c );
-}
-
- int promedio=a+b+c;
- promedio=promedio / 3;
- printf("%d\n", promedio);
-
-return 0;
 }
