@@ -10,7 +10,10 @@ int  main(int argc, char  *argv[]) {
 
 
   double Resultado=atan2(y,x);
-Resultado= Resultado * 180 / 3.14159265359;
+Resultado= Resultado * 180 / M_PI;
+if (Resultado < 0) {
+  Resultado +=360.0;
+}
   printf("El arcotangente de X:%f e Y:%f es: %.2f\n",x , y , Resultado );
 
 
