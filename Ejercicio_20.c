@@ -22,9 +22,5 @@ printf("El numero:%d es divisible por 3\n", c);
 c++;
 }
 
-
-
-
-
   return 0;
 }

@@ -9,12 +9,15 @@ int main(int argc, char  *argv[]) {
 
     if (x>0 && y>0) {
       printf("El vector esta en el I cuadrante\n");
-    } else if (x<0 && y>0) {
-     printf("El vector esta en el II cuadrante\n");
-   }  else if (x<0 && y<0) {
-    printf("El vector esta en el III cuadrante\n");
-    } else if (x>0 && y<0) {
-     printf("El vector esta en el IV cuadrante\n");
+      }
+      else if (x<0 && y>0) {
+          printf("El vector esta en el II cuadrante\n");
+            }
+             else if (x<0 && y<0) {
+              printf("El vector esta en el III cuadrante\n");
+                }
+                else if (x>0 && y<0) {
+                  printf("El vector esta en el IV cuadrante\n");
         }
 
   return 0;
